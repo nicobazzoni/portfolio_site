@@ -7,6 +7,9 @@ import { urlFor, client } from '../../client';
 import './Skills.scss';
 
 const Skills = () => {
+
+
+ 
   const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
 
@@ -70,10 +73,12 @@ const Skills = () => {
                       <p className="p-text">{work.company}</p>
                     </motion.div>
                     <ReactTooltip
+                    
                       id={work.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
+                      
                     >
                       {work.desc}
                     </ReactTooltip>
