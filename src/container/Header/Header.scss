@@ -1,6 +1,6 @@
 #home {
     position: relative;
-    background: url("../../assets/bgIMG.png");
+    background: rgb(26, 27, 31);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -176,10 +176,15 @@
     
   
     img {
-      width: 100%;
+      width: 125%;
+     
+      border-radius: 50%;
       object-fit: contain;
       z-index: 1;
-      opacity: 0.9;
+      opacity: 0.5;
+      margin: auto
+     
+      
     }
   
     .overlay_circle {
